@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #242333;
-  color: #fff;
+  background-color: white;
+  color: grey;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,11 +17,11 @@ body {
 }
 
 .movie-container {
-  margin: 20px 0;
+  margin: 22px 0;
 }
 
 .movie-container select {
-  background-color: #fff;
+  background-color: white;
   border: 0;
   border-radius: 5px;
   font-size: 14px;
@@ -38,12 +38,12 @@ body {
 }
 
 .seat {
-  background-color: #444451;
+  background-color: grey;
   height: 12px;
   width: 15px;
   margin: 3px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .seat.selected {
@@ -51,7 +51,7 @@ body {
 }
 
 .seat.occupied {
-  background-color: #fff;
+  background-color: green;
 }
 
 .seat:nth-of-type(2) {
